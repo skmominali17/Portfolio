@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    
+    width: 23vh;
+    height: 7vh;
+}
+ .flexbox_conatiner{
+    display: flex;
+    justify-content: space-around;
+    
+    
+ }
+
+ .flexbox{
+    margin-top: 3vh;
+    display: flex;
+    
+    
+ }
+
+.items{
+    
+    padding: 0vh 5vh;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 2.3vh;
+    
+
+
+}
+
+a:hover{
+    color: black;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+li a{
+    
+    padding: 1vh 2vh;
+}
+
+li a:hover{
+    transition: all 0.3s ease-in 0s;
+    background-color: rgb(199, 199, 199);
+    border-radius: 15px;
+    
+
+}
+
+button a{
+    text-decoration: none;
+    
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5vh 2vh;
+    font-size: 1.8vh;
+    color: black;
+
+    
+
+}
+
+button{
+    
+    border: none;
+    margin-top: 2vh;
+    background-color:rgb(199, 199, 199) ;
+
+}
+
+button:hover{
+    background-color:rgb(199, 199, 199) ;
+    transition: all 0.3s ease-in 0s;
+    border-radius: 15px;
+}
+
+h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 7vh;
+}
+
+h4{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2vh;
+}
+
+h3{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vh;
+}
+
+
+.text{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.search form{
+    position: relative;
+    width: 380px;
+    max-width: 100%;
+}
+
+.search form input:first-child{
+    margin-top: 25px;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid rgb(255, 255, 255);
+    outline: none;
+    border-radius: 30px;
+}
+
+.search form input:last-child{
+    margin-top: 25px;
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    top: 6px;
+    right: 6px;
+}
+
+
